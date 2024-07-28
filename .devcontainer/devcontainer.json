@@ -1,0 +1,16 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.fontSize": 20,
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "terminal.integrated.fontSize": 16,
+        "prettier.singleQuote": true
+      },
+      "extensions": ["esbenp.prettier-vscode"]
+    }
+  }
+}
