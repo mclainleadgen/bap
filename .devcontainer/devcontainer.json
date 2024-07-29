@@ -1,5 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postStartCommand": "./setup.sh",
   "customizations": {
     "vscode": {
       "settings": {
@@ -8,9 +9,16 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "terminal.integrated.fontSize": 16,
-        "prettier.singleQuote": true
+        "prettier.singleQuote": true,
+        "workbench.editor.enablePreview": false
       },
-      "extensions": ["esbenp.prettier-vscode"]
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dsznajder.es7-react-js-snippets",
+        "ms-vscode.vscode-typescript-next",
+        "bradlc.vscode-tailwindcss",
+        "prisma.prisma"
+      ]
     }
   }
 }
